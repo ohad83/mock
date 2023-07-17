@@ -11,7 +11,7 @@ package overlap
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 )
 
 // MockReadWriteCloser is a mock of ReadWriteCloser interface.

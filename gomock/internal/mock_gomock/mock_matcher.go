@@ -11,7 +11,7 @@ package mock_gomock
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 )
 
 // MockMatcher is a mock of Matcher interface.

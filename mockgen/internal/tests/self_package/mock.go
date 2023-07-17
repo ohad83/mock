@@ -11,7 +11,7 @@ package core
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 )
 
 // MockMethods is a mock of Methods interface.

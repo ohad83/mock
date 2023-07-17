@@ -11,7 +11,7 @@ package mock_concurrent
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 )
 
 // MockMath is a mock of Math interface.

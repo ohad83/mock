@@ -18,15 +18,15 @@ import (
 
 	t2 "text/template"
 
-	"go.uber.org/mock/sample/imp1"
+	"github.com/ohad83/mock/sample/imp1"
 
 	// Dependencies outside the standard library.
 
-	renamed2 "go.uber.org/mock/sample/imp2"
+	renamed2 "github.com/ohad83/mock/sample/imp2"
 
-	. "go.uber.org/mock/sample/imp3"
+	. "github.com/ohad83/mock/sample/imp3"
 
-	imp_four "go.uber.org/mock/sample/imp4"
+	imp_four "github.com/ohad83/mock/sample/imp4"
 )
 
 // calls itself "imp_four"

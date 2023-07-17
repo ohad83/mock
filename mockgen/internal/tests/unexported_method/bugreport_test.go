@@ -3,7 +3,7 @@ package bugreport
 import (
 	"testing"
 
-	"go.uber.org/mock/gomock"
+	"github.com/ohad83/mock/gomock"
 )
 
 func TestCallExample(t *testing.T) {

@@ -14,7 +14,7 @@
 
 package faux
 
-import "go.uber.org/mock/mockgen/internal/tests/import_embedded_interface/other/log"
+import "github.com/ohad83/mock/mockgen/internal/tests/import_embedded_interface/other/log"
 
 func Conflict1() {
 	log.Foo()

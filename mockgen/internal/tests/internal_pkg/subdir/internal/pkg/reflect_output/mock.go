@@ -11,8 +11,8 @@ package mock_pkg
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	pkg "go.uber.org/mock/mockgen/internal/tests/internal_pkg/subdir/internal/pkg"
+	gomock "github.com/ohad83/mock/gomock"
+	pkg "github.com/ohad83/mock/mockgen/internal/tests/internal_pkg/subdir/internal/pkg"
 )
 
 // MockIntf is a mock of Intf interface.

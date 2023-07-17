@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.uber.org/mock/gomock"
-	"go.uber.org/mock/gomock/internal/mock_gomock"
+	"github.com/ohad83/mock/gomock"
+	"github.com/ohad83/mock/gomock/internal/mock_gomock"
 )
 
 type A []string

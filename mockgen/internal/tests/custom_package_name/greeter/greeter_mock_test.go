@@ -11,8 +11,8 @@ package greeter
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	client "go.uber.org/mock/mockgen/internal/tests/custom_package_name/client/v1"
+	gomock "github.com/ohad83/mock/gomock"
+	client "github.com/ohad83/mock/mockgen/internal/tests/custom_package_name/client/v1"
 )
 
 // MockInputMaker is a mock of InputMaker interface.

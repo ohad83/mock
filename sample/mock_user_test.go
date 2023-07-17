@@ -18,11 +18,11 @@ import (
 	reflect "reflect"
 	template0 "text/template"
 
-	gomock "go.uber.org/mock/gomock"
-	imp1 "go.uber.org/mock/sample/imp1"
-	imp2 "go.uber.org/mock/sample/imp2"
-	imp3 "go.uber.org/mock/sample/imp3"
-	imp_four "go.uber.org/mock/sample/imp4"
+	gomock "github.com/ohad83/mock/gomock"
+	imp1 "github.com/ohad83/mock/sample/imp1"
+	imp2 "github.com/ohad83/mock/sample/imp2"
+	imp3 "github.com/ohad83/mock/sample/imp3"
+	imp_four "github.com/ohad83/mock/sample/imp4"
 )
 
 // MockIndex is a mock of Index interface.

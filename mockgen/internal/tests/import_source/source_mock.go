@@ -11,8 +11,8 @@ package mock_source
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	source "go.uber.org/mock/mockgen/internal/tests/import_source/definition"
+	gomock "github.com/ohad83/mock/gomock"
+	source "github.com/ohad83/mock/mockgen/internal/tests/import_source/definition"
 )
 
 // MockS is a mock of S interface.

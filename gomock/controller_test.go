@@ -21,7 +21,7 @@ import (
 
 	"strings"
 
-	"go.uber.org/mock/gomock"
+	"github.com/ohad83/mock/gomock"
 )
 
 type ErrorReporter struct {

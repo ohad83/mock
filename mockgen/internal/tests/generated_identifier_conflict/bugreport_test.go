@@ -1,8 +1,9 @@
 package bugreport
 
 import (
-	"go.uber.org/mock/gomock"
 	"testing"
+
+	"github.com/ohad83/mock/gomock"
 )
 
 func TestExample_Method(t *testing.T) {

@@ -19,8 +19,8 @@ package bugreport
 import (
 	"log"
 
-	"go.uber.org/mock/mockgen/internal/tests/import_embedded_interface/ersatz"
-	"go.uber.org/mock/mockgen/internal/tests/import_embedded_interface/faux"
+	"github.com/ohad83/mock/mockgen/internal/tests/import_embedded_interface/ersatz"
+	"github.com/ohad83/mock/mockgen/internal/tests/import_embedded_interface/faux"
 )
 
 // Source is an interface w/ an embedded foreign interface

@@ -11,9 +11,9 @@ package bugreport
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	ersatz "go.uber.org/mock/mockgen/internal/tests/import_embedded_interface/ersatz"
-	ersatz0 "go.uber.org/mock/mockgen/internal/tests/import_embedded_interface/other/ersatz"
+	gomock "github.com/ohad83/mock/gomock"
+	ersatz "github.com/ohad83/mock/mockgen/internal/tests/import_embedded_interface/ersatz"
+	ersatz0 "github.com/ohad83/mock/mockgen/internal/tests/import_embedded_interface/other/ersatz"
 )
 
 // MockSource is a mock of Source interface.

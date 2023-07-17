@@ -12,7 +12,7 @@ import (
 	http "net/http"
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 )
 
 // MockNet is a mock of Net interface.

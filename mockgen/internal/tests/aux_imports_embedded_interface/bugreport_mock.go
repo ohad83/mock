@@ -11,8 +11,8 @@ package bugreport
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	faux "go.uber.org/mock/mockgen/internal/tests/aux_imports_embedded_interface/faux"
+	gomock "github.com/ohad83/mock/gomock"
+	faux "github.com/ohad83/mock/mockgen/internal/tests/aux_imports_embedded_interface/faux"
 )
 
 // MockSource is a mock of Source interface.

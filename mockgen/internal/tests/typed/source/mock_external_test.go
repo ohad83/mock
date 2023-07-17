@@ -7,9 +7,9 @@ package source
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
-	typed "go.uber.org/mock/mockgen/internal/tests/typed"
-	other "go.uber.org/mock/mockgen/internal/tests/typed/other"
+	gomock "github.com/ohad83/mock/gomock"
+	typed "github.com/ohad83/mock/mockgen/internal/tests/typed"
+	other "github.com/ohad83/mock/mockgen/internal/tests/typed/other"
 	constraints "golang.org/x/exp/constraints"
 )
 

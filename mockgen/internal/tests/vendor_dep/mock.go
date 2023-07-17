@@ -11,7 +11,7 @@ package vendor_dep
 import (
 	reflect "reflect"
 
-	gomock "go.uber.org/mock/gomock"
+	gomock "github.com/ohad83/mock/gomock"
 	present "golang.org/x/tools/present"
 )
 

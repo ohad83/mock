@@ -24,7 +24,7 @@ import (
 )
 
 // pkgPath is the importable path for package model
-const pkgPath = "go.uber.org/mock/mockgen/model"
+const pkgPath = "github.com/ohad83/mock/mockgen/model"
 
 // Package is a Go package. It may be a subset.
 type Package struct {
@@ -274,7 +274,11 @@ func (nt *NamedType) String(pm map[string]string, pkgOverride string) string {
 	}
 	prefix := pm[nt.Package]
 	if prefix != "" {
-		return prefix + "." + nt.Type + nt.TypeParams.String(pm, pkgOverride)
+		ntType := nt.Type
+		if strings.Contains(nt.Type, nt.Package) {
+			ntType = strings.ReplaceAll(ntType, nt.Package, prefix)
+		}
+		return prefix + "." + ntType + nt.TypeParams.String(pm, pkgOverride)
 	}
 
 	return nt.Type + nt.TypeParams.String(pm, pkgOverride)
