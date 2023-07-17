@@ -197,7 +197,7 @@ import (
 	"path"
 	"reflect"
 
-	"go.uber.org/mock/mockgen/model"
+	"github.com/ohad83/mock/mockgen/model"
 
 	pkg_ {{printf "%q" .ImportPath}}
 )
