@@ -11,7 +11,7 @@ package gomock_test
 import (
 	reflect "reflect"
 
-	"go.uber.org/mock/gomock"
+	"github.com/ohad83/mock/gomock"
 )
 
 // MockFoo is a mock of Foo interface.

@@ -1,5 +1,5 @@
-github.com/ohad83/mock v0.0.0-20230717153152-7beb269acad6 h1:1aUjbxxiOSWe9Ox8P1NFcXSkHvBKb1sArIauarnrpE0=
-github.com/ohad83/mock v0.0.0-20230717153152-7beb269acad6/go.mod h1:a6FSlNadKUHUa9IP5Vyt1zh4fC7uAwxMutEAscFbkZc=
+github.com/ohad83/mock v0.0.0-20230717162540-d2f55a74e056 h1:zvkkL05vVvDFKnwMO+wtsWvMtcu+KKbc1eUYu0CwnRc=
+github.com/ohad83/mock v0.0.0-20230717162540-d2f55a74e056/go.mod h1:4QtMug6oT2L5yxxjvHE11oP1WAvUPo19oGbweL6et8E=
 golang.org/x/mod v0.11.0 h1:bUO06HqtnRcc/7l71XBe4WcqTZ+3AH1J59zWDDwLKgU=
 golang.org/x/mod v0.11.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=
 golang.org/x/sys v0.1.0 h1:kunALQeHf1/185U1i0GOB/fy1IPRDDpuoOOqRReG57U=

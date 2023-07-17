@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.uber.org/mock/mockgen/model"
+	"github.com/ohad83/mock/mockgen/model"
 )
 
 var (

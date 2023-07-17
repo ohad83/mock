@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"go/ast"
 
-	"go.uber.org/mock/mockgen/model"
+	"github.com/ohad83/mock/mockgen/model"
 )
 
 func getTypeSpecTypeParams(ts *ast.TypeSpec) []*ast.Field {

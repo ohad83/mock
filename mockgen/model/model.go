@@ -24,7 +24,7 @@ import (
 )
 
 // pkgPath is the importable path for package model
-const pkgPath = "go.uber.org/mock/mockgen/model"
+const pkgPath = "github.com/ohad83/mock/mockgen/model"
 
 // Package is a Go package. It may be a subset.
 type Package struct {
