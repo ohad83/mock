@@ -9,3 +9,5 @@ require (
 )
 
 require golang.org/x/sys v0.1.0 // indirect
+
+replace go.uber.org/mock => github.com/ohad83/mock v0.0.0-20230717153152-7beb269acad6
